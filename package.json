@@ -1,18 +1,19 @@
 {
-  "name": "saido_courses",
+  "name": "task_3",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "type": "module",
+  "main": "student.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon student.js"
   },
-  "bin":"index.js",
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
   "dependencies": {
-    "commander": "^14.0.0",
-    "inquirer": "^12.9.1"
+    "express": "^5.1.0"
   }
 }
